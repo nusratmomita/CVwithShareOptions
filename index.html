@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!---<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> Font Awesome CDN -->
+</head>
+<body>
+   <div class="container">
+    <div class="left_side">
+        <div class="profileText">
+            <div class="imgBx">
+                <img src="picture.jpg">
+            </div>
+            <h2>Nushrath Momita<br><span>Personal Portfolio</span></h2>
+        </div>
+        <div class="contactInfo">
+            <h3 class="title">Personal Info</h3>
+            <ul>
+                <li>
+                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <span class="text">+123 456 789</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                    <span class="text">Sylhet,Bangladesh</span>
+                </li>
+                
+            </ul>
+        </div>
+
+        <div class="contactInfo">
+            <h3 class="title">Contect</h3>
+            <ul>
+                <li>
+                    <span class="icon"><i class="fa fa-envelope-open-o" aria-hidden="true"></i></span>
+                    <span class="text">nusrat@gmail.com</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+                    <span class="text">www.github.com/me</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                    <span class="text">www.linkedin.com/me</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                    <span class="text">www.Twitter.com/me</span>
+                </li>
+            </ul>
+        </div>
+
+        <footer class="bottom-container">
+            <div id="share-button">
+
+                <h5>Share Now</h5>
+                <a class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+
+                <a class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+
+                <a class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+
+                <a class="whatsapp" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            </div>
+
+            <script>
+                const link = ''
+                const msg = encodeURIComponent('Resume of a Candidate');
+                const title = encodeURIComponent('Resume');
+    
+                const fb = document.querySelector('.facebook');
+                fb.href = 'https://www.facebook.com/share.php?u=${link}'
+
+                const tw = document.querySelector('.twitter');
+                tw.href = 'https://www.twitter.com/share.php?u=${link}&text=${msg}&hashtags=javascript,programming'
+
+                const li = document.querySelector('.linkedin');
+                li.href = 'https://www.linkedin.com/sharing/share-offsite/?url=${;link}'
+
+                const wa = document.querySelector('.whatsapp');
+                wa.href = 'https://api.whatsapp.com/send?text=${msg}:${link}'
+
+
+    
+            </script>
+    
+
+        </footer>
+    
+
+       
+       
+    </div>
+
+
+
+    <div class="right_side">
+        <div class="about">
+            <h2 class="title1">About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Fugiat dolorem illum, error labore explicabo rerum dolores amet. 
+                <br><br>Nam beatae illum sint necessitatibus, exercitationem, aliquid temporibus vitae nulla quidem magnam amet.</p>
+        </div>
+
+        <div class="education">
+            <h2 class="title2">Education</h2>
+            <ul>
+                <li>
+                    <h5>2022-2025</h5>
+                    <h4>Bachelor Degree in Software Engineering</h4>
+                    <h4>Metropolitan University</h4>
+                </li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <h2 class="title3">Experience</h2>
+            <div class="box">
+                <div class="company_nameone">
+                    <h3>2020 - Present</h3>
+                    <h3>X Interprize</h3>
+                    <h4>Software Engineerer</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                        mpedit est commodi repellat aspernatur nobis ipsum nisi vel adipisci! Ratione quis pariatur iste quae, <br>
+                        molestiae laudantium? Possimus voluptatum reprehenderit incidunt dignissimos.
+                    </p>
+                </div>
+                
+            </div>
+        
+
+        </div>
+
+        <div class="projects">
+            <h2 class="title4">Project</h2>
+            <div class="boxone">
+                <div class="mypro">
+                    <h3>Discord Clone</h3>
+                    <h3>Mern Stack</h3>
+                   
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                        mpedit est commodi repellat aspernatur nobis ipsum nisi vel adipisci! Ratione quis pariatur iste quae, <br>
+                        molestiae laudantium? Possimus voluptatum reprehenderit incidunt dignissimos.
+                    </p>
+                </div>
+    </div>
+    </div>
+</body>
+</html>
